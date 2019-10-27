@@ -64,6 +64,7 @@ body {
 }
 .education_wrapper--title_wrapper {
     border-bottom: 2px solid #000000;
+    cursor: pointer;
 }
 
 .education_wrapper--title {
@@ -85,12 +86,9 @@ body {
     top: 10px;
 }
 
-.education_wrapper--button:active  {
-    background-color: #9f6650;
-}
-
 .education_wrapper--list {
     display: none;
+    list-style: none;
 }
 
 .education_wrapper--item {
@@ -102,3 +100,111 @@ body {
     display: block;
 }
 
+.slider_wrapper {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    /*top: 50%;*/
+    /*left:50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+.slider_wrapper--slide {
+    display: flex;
+    justify-content: space-between;
+    animation: 0.5s ease-in-out;
+}
+
+.slider_wrapper--task_name {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.slider_wrapper--list {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+.slider_wrapper--list_item {
+    font-size: 1.5em;
+}
+
+.slider_wrapper--right_arrow,
+.slider_wrapper--left_arrow {
+    width: 60px;
+}
+
+.slider_wrapper--left_arrow_wrapper,
+.slider_wrapper--right_arrow_wrapper {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.slider_wrapper--left_arrow_wrapper {
+    left: -10%;
+}
+
+.slider_wrapper--right_arrow_wrapper {
+    right: -10%;
+}
+
+.slider_wrapper--slide {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider_wrapper--slide-active,
+.slider_wrapper--slide-next {
+    display: flex;
+}
+
+.slider_wrapper--slide-next {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.slider_wrapper--slide_container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
