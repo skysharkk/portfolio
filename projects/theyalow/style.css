@@ -1,0 +1,847 @@
+.head {
+  background-image: url("assets/img/Background_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 565px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Lucida Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 41px;
+  margin: 13px 0 0 5px;
+  color: #fff;
+}
+
+.head_logo {
+  width: 83px;
+  height: 83px;
+}
+
+.logo_title_container {
+  display: flex;
+  align-items: center;
+}
+
+.head_wrapper {
+  width: 1020px;
+  height: 138px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_bar_list {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 45px;
+  box-shadow: -4px -5px 0px 0px rgba(245, 197, 8, 0.4),
+    -8px -8px 0px 0px rgba(245, 197, 8, 0.3);
+}
+
+.nav_bar_list_item {
+  width: 172px;
+  height: 41px;
+  background: #f5c506;
+}
+
+.nav_bar_list_item a {
+  text-decoration: none;
+  font-family: "Segoe WP", sans-serif;
+  color: #9b7d08;
+  font-size: 18px;
+}
+
+.nav_item_1 a {
+  padding: 8px 18px 12px 39px;
+  display: inline-block;
+}
+
+.nav_item_2 a {
+  padding: 8px 14px 12px 14px;
+  display: inline-block;
+}
+
+.nav_item_3 a {
+  padding: 8px 18px 13px 16px;
+  display: inline-block;
+}
+
+.nav_bar_list_item a:hover {
+  background-color: #fff;
+}
+
+.nav_item_2 {
+  border-right: 1px solid #dcb105;
+  border-left: 1px solid #dcb105;
+  width: 132px;
+}
+
+.nav_item_3 {
+  width: 147px;
+}
+
+.about_us_logo,
+.services_logo,
+.contact_logo {
+  padding-right: 9px;
+  position: relative;
+  top: 2px;
+}
+
+.video_wrapper {
+  width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #f5c506;
+  font-family: "Asap", sans-serif;
+  font-size: 63px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.description_title_2 {
+  color: #fff;
+  font-size: 64px;
+}
+
+.video_preview {
+  width: 549px;
+  height: 326px;
+  padding: 30px 0 0px 10px;
+}
+
+.video_preview_mobile,
+.message_wrapper {
+  display: none;
+}
+
+.description_title_container {
+  padding-right: 24px;
+}
+
+.arrow_left,
+.arrow_right {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin: 18px 6px;
+}
+
+.left_arrow_button,
+.right_arrow_button {
+  width: 32px;
+  height: 56px;
+  background-color: #f5c506;
+  position: absolute;
+  bottom: 37%;
+}
+
+.right_arrow_button {
+  right: 0;
+}
+
+.left_arrow_button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.right_arrow_button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.left_arrow_button:hover .arrow_left {
+  fill: #9b7d08;
+}
+
+.right_arrow_button:hover .arrow_right {
+  fill: #9b7d08;
+}
+
+.section_advantages {
+  background-image: url("assets/img/Background_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 212px;
+  box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.37);
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper_advantages {
+  width: 1020px;
+  height: 212px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first_advantages,
+.second_advantages,
+.third_advantages {
+  width: 338px;
+}
+
+.first_advantages {
+  border-left: #d4d4d4 solid 2px;
+  border-right: #d4d4d4 solid 2px;
+}
+
+.third_advantages {
+  border-left: #d4d4d4 solid 1px;
+  border-right: #d4d4d4 solid 1px;
+}
+
+.wrapper_advantages svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.first_advantages_icon {
+  padding: 62px 0 13px 0;
+}
+
+.second_advantages_icon {
+  padding: 41px 0 13px 16px;
+}
+
+.third_advantages_icon {
+  padding: 56px 19px 11px 0;
+}
+
+.wrapper_advantages p {
+  text-transform: uppercase;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 27px;
+}
+
+.first_advantages_description {
+  padding-left: 11px;
+}
+
+.second_advantages_description {
+  padding-left: 11px;
+}
+
+.third_advantages_description {
+  padding-right: 11px;
+}
+
+.social_section {
+  background-image: url("assets/img/Background_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px;
+}
+
+.social_title {
+  text-align: left;
+  color: #fff;
+  font-family: "PTSans", sans-serif;
+  font-size: 38px;
+  padding-top: 18px;
+  padding-bottom: 16px;
+}
+
+.social_wrapper {
+  width: 1020px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.twitter_wrapper {
+  display: flex;
+  height: 321px;
+}
+
+.some_twit {
+  background-color: #ec9e03;
+  width: 341px;
+  height: 233px;
+  position: relative;
+}
+
+.other_twit {
+  background-color: #ec9e03;
+  width: 330px;
+  height: 233px;
+  margin-left: 32px;
+  position: relative;
+}
+
+.text_twit {
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 29px;
+  padding: 16px 41px 27px 30px;
+  line-height: 38px;
+  word-wrap: break-word;
+}
+
+.cross {
+  background: #f9e2b4;
+  height: 11px;
+  width: 3px;
+  display: block;
+  position: absolute;
+  top: 210px;
+  left: 318px;
+}
+
+.cross:after {
+  content: "";
+  height: 3px;
+  width: 11px;
+  background: #f9e2b4;
+  position: absolute;
+  left: -4px;
+  top: 4px;
+}
+
+.cross:hover {
+  cursor: pointer;
+}
+
+.twitter_form {
+  display: none;
+}
+
+.twit_cross {
+  left: 314px;
+}
+
+.count_twit {
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  left: 287px;
+  bottom: 192px;
+}
+
+.twitter_logo {
+  padding: 60px 0 50px 85px;
+}
+
+.dates_of_twit {
+  width: 112px;
+  height: 88px;
+  background-color: #ddb101;
+  text-align: center;
+}
+
+.date {
+  font-family: "Segoe WP Bold", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  display: block;
+  padding: 8px 0 1px 0;
+}
+
+.month {
+  font-family: "Segoe UI", sans-serif;
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #b26529;
+}
+
+.scroll {
+  width: 898px;
+  height: 15px;
+  background-color: #fae285;
+  border-radius: 50px 50px;
+  margin-top: 42px;
+  margin-left: 72px;
+}
+
+.scroll_button {
+  width: 198px;
+  height: 15px;
+  background-color: #ec9e03;
+  border-radius: 50px 50px;
+  margin-left: 248px;
+}
+
+.description_section {
+  background-image: url("assets/img/Background_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 497px;
+  position: relative;
+}
+
+.description_wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.description_list {
+  float: right;
+}
+
+.description_list {
+  width: 315px;
+  padding-top: 81px;
+  padding-right: 32px;
+}
+
+.description_list li {
+  font-family: "OpenSans", sans-serif;
+  color: #a9a9a7;
+  font-size: 22px;
+  padding-bottom: 26px;
+  position: relative;
+  line-height: 22px;
+}
+
+.description_list li::before {
+  content: " ";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #f5c506;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 336px;
+}
+
+.circle_amount {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  line-height: 117px;
+  text-align: center;
+  background: #f5c506;
+}
+
+.circle_amount span {
+  font-family: "PTSans Narrow Bold", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.devices {
+  position: relative;
+  margin-top: 34px;
+  width: 561px;
+  float: left;
+}
+
+.circle_amount {
+  position: absolute;
+  bottom: 183px;
+  right: 447px;
+}
+
+.description_wrapper h2 {
+  font-size: 44px;
+  font-family: "PTSans", sans-serif;
+  padding-top: 26px;
+}
+
+.logo_pc {
+  padding: 0 19px;
+}
+
+.logo_tablet {
+  padding-bottom: 38px;
+}
+
+.logo_smartphone {
+  padding-left: 21px;
+  padding-bottom: 39px;
+}
+
+.footer {
+  background-color: #4c4c4c;
+  box-shadow: 0px 1px 15px 11px rgba(0, 0, 0, 0.68);
+  position: relative;
+  z-index: 1;
+}
+
+.footer_wrapper {
+  width: 1020px;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer_wrapper h2 {
+  font-family: "Lucida Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+  line-height: 64px;
+  padding-left: 5px;
+}
+
+.footer_wrapper img {
+  height: 54px;
+  width: 54px;
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    overflow-x: hidden;
+  }
+  .head {
+    background-image: none;
+    height: 388px;
+  }
+  .head_logo {
+    width: 40px;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 7px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .head_wrapper {
+    width: 100%;
+    height: 62px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 1px 1px 0px rgba(32, 32, 32, 0.644);
+  }
+
+  .video_wrapper {
+    width: 100%;
+    height: 324px;
+  }
+
+  .description_title_container,
+  .left_arrow_button,
+  .right_arrow_button {
+    display: none;
+  }
+
+  .nav_bar_list {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .logo_title_container {
+    background: linear-gradient(
+      to bottom,
+      rgba(92, 92, 92, 1) 0%,
+      rgba(102, 98, 102, 1) 12%,
+      rgba(102, 100, 102, 1) 26%,
+      rgba(99, 98, 99, 1) 38%,
+      rgba(82, 82, 82, 1) 51%,
+      rgba(84, 82, 84, 1) 51%,
+      rgba(70, 70, 70, 1) 63%,
+      rgba(70, 70, 70, 1) 76%,
+      rgba(70, 70, 70, 1) 91%,
+      rgba(70, 70, 70, 1) 100%
+    );
+    height: 62px;
+    width: 186px;
+  }
+
+  .nav_bar_list_item {
+    height: 62px;
+    width: 171px;
+  }
+
+  .nav_item_2 {
+    width: 132px;
+  }
+
+  .nav_item_3 {
+    width: 149px;
+  }
+
+  .nav_item_1 a {
+    padding: 19px 29px 22px 25px;
+  }
+
+  .nav_item_2 a {
+    padding: 20px 18px 21px 8px;
+  }
+
+  .nav_item_3 a {
+    padding: 19px 20px 23px 14px;
+  }
+
+  .about_us_logo,
+  .services_logo,
+  .contact_logo {
+    padding-right: 11px;
+  }
+
+  .video_preview {
+    padding: 0;
+    width: 640px;
+    height: 327px;
+  }
+
+  .video_preview_descktop {
+    display: none;
+  }
+
+  .video_preview_mobile {
+    display: block;
+  }
+
+  .first_advantages_icon {
+    width: 89px;
+    height: 61px;
+    padding: 35px 34px 19px 0;
+  }
+
+  .second_advantages_icon {
+    width: 67px;
+    height: 69px;
+    padding: 31px 0 16px 18px;
+  }
+
+  .third_advantages_icon {
+    width: 68px;
+    height: 69px;
+    padding: 30px 9px 17px 0;
+  }
+
+  .section_advantages {
+    height: 165px;
+  }
+
+  .wrapper_advantages {
+    width: 100%;
+    height: 165px;
+  }
+
+  .first_advantages,
+  .third_advantages {
+    border: none;
+  }
+
+  .wrapper_advantages p {
+    font-size: 24px;
+  }
+
+  .section_advantages {
+    box-shadow: -4px -4px 2px 0px rgba(255, 255, 255, 0.4),
+      -9px -9px 2px 0px rgba(255, 255, 255, 0.3),
+      0px 4px 2px 0px rgba(241, 241, 241, 0.685);
+  }
+
+  .second_advantages_description {
+    padding-left: 18px;
+  }
+
+  .first_advantages_description {
+    padding-left: 0;
+    padding-right: 23px;
+  }
+
+  .third_advantages_description {
+    padding-right: 0;
+    padding-left: 7px;
+  }
+
+  .social_section {
+    background-image: none;
+  }
+
+  .social_title,
+  .dates_of_twit,
+  .scroll,
+  .other_twit,
+  .description_list {
+    display: none;
+  }
+
+  .some_twit {
+    height: 232px;
+    width: 299px;
+    margin: 16px 5px 10px 8px;
+  }
+
+  .video_twit {
+    height: 232px;
+    width: 315px;
+    margin: 16px 8px 10px 5px;
+  }
+
+  .text_twit {
+    padding: 14px 22px 15px 28px;
+    line-height: 34px;
+  }
+  .cross {
+    top: 205px;
+    left: 283px;
+    height: 10px;
+    width: 2px;
+  }
+  .cross:after {
+    height: 2px;
+    width: 10px;
+  }
+
+  .footer_wrappe,
+  .description_wrapper,
+  .social_wrapper,
+  .footer_wrapper {
+    width: 100vw;
+    height: 100%;
+  }
+
+  .twitter_form {
+    display: inline-block;
+    width: 277px;
+    margin-left: 12px;
+  }
+
+  .tweet_text,
+  .tweet_submit {
+    height: 27px;
+    border-top: 1px solid #d0a806;
+    border-bottom: 1px solid #d0a806;
+    background: #ffffff;
+    display: inline-block;
+  }
+
+  .tweet_text {
+    width: 195px;
+    border-radius: 13px 0 0 13px;
+    border-left: 1px solid #d0a806;
+    border-right: none;
+    box-shadow: inset 8px 20px 14px -27px rgba(0, 0, 0, 0.55);
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 7px;
+  }
+
+  .count_twit {
+    display: none;
+  }
+
+  .tweet_submit {
+    width: 70px;
+    height: 31px;
+    border-radius: 0 13px 13px 0;
+    border-right: 1px solid #d0a806;
+    border-left: none;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 205, 105, 1) 0%,
+      rgba(255, 205, 105, 1) 9%,
+      rgba(222, 157, 27, 1) 59%,
+      rgba(222, 157, 27, 1) 72%,
+      rgba(209, 144, 13, 1) 86%,
+      rgba(209, 144, 13, 1) 100%
+    );
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    right: 4px;
+    outline: none;
+  }
+
+  .twitter_wrapper {
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .tweet_submit:active {
+    box-shadow: inset 0px 0px 16px 10px rgba(0, 0, 0, 0.75);
+  }
+
+  .message_wrapper {
+    display: block;
+    background-color: #f5c507;
+    width: 640px;
+    height: 233px;
+  }
+
+  .messag_item {
+    width: 285px;
+    height: 42px;
+    background-image: url("assets/img/tweet_background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 14px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: block;
+  }
+
+  .messag_item span {
+    display: inline-block;
+    padding: 10px 26px 7px 28px;
+  }
+
+  .twitter_logo_mobile {
+    padding: 59px 0 40px 83px;
+  }
+
+  .messages_block {
+    float: right;
+    height: 233px;
+  }
+
+  .messages {
+    margin-top: 23px;
+    margin-right: 32px;
+  }
+
+  .messag_item_opacity {
+    opacity: 0.8;
+  }
+
+  .description_section {
+    background-image: none;
+    background-color: #474747;
+    height: 466px;
+  }
+
+  .devices {
+    float: none;
+    margin: 61px auto 0;
+  }
+
+  .circle_amount {
+    right: 457px;
+  }
+
+  .description_wrapper h2 {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .footer_wrapper img {
+    height: 31px;
+    width: 31px;
+    padding-left: 65px;
+  }
+
+  .footer_wrapper h2 {
+    font-size: 17px;
+    line-height: 43px;
+    padding-left: 8px;
+  }
+
+  .footer {
+    box-shadow: 0px 10px 15px 11px rgba(0, 0, 0, 0.68);
+  }
+}

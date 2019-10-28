@@ -8,7 +8,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
     border-bottom: 5px solid #000000;
+    text-align: center;
 }
 
 .photo_wrapper {
@@ -17,6 +19,7 @@ body {
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
+    align-self: center;
 }
 
 .photo_wrapper--photo {
@@ -104,15 +107,13 @@ body {
     width: 65%;
     margin: 0 auto;
     position: relative;
-    /*top: 50%;*/
-    /*left:50%;*/
-    /*transform: translate(-50%, -50%);*/
 }
 
 .slider_wrapper--slide {
     display: flex;
     justify-content: space-between;
     animation: 0.5s ease-in-out;
+    position: relative;
 }
 
 .slider_wrapper--task_name {
@@ -206,5 +207,82 @@ body {
     }
     to {
         left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header_wrapper,
+    .education_wrapper {
+        width: 100%;
+    }
+    .slider_wrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 785px) {
+
+    .slider_wrapper {
+        width: 100%;
+    }
+
+    .slider_wrapper--right_arrow_wrapper {
+        right: 1%;
+    }
+
+    .slider_wrapper--left_arrow_wrapper {
+        left: 1%;
+    }
+}
+
+@media (max-width: 665px) {
+    .header_wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 605px) {
+    .slider_wrapper--description {
+        display: none;
+    }
+
+    .slider_wrapper--slide {
+        justify-content: center;
+    }
+
+    .slider_wrapper--description {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #9f6650;
+        border-radius: 10px;
+    }
+
+    .slider_wrapper--task_name {
+        margin: 0;
+    }
+
+    .slider_wrapper--description_button {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #9f6650;
+        border-radius: 50%;
+        right: 3%;
+    }
+
+    .slider_wrapper--description_button:hover ~ .slider_wrapper--description {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 475px) {
+    .slider_wrapper--right_arrow_wrapper {
+        display: none;
+    }
+
+    .slider_wrapper--left_arrow_wrapper {
+        display: none;
     }
 }
