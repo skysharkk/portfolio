@@ -95,7 +95,6 @@ const swipeDetect = (element) => {
                 }
             }
         }
-
         e.preventDefault();
     });
 
@@ -109,13 +108,10 @@ const swipeDetect = (element) => {
                     nextSlide(currentSlide);
                 }
             }
-
-
         let touchObj = e.changedTouches[0];
         startX= touchObj.pageX;
         startY = touchObj.pageY;
         startTime = new Date().getTime();
-        e.preventDefault();
     });
 
     surface.addEventListener('touchend', (e) => {
@@ -123,7 +119,6 @@ const swipeDetect = (element) => {
         distX = touchObj.pageX - startX;
         distY = touchObj.pageY - startY;
         elapsedTime = new Date().getTime() - startTime;
-
         if (elapsedTime <= allowedTime) {
             if (Math.abs(distX) >= threshold && Math.abs(distY) <= threshold) {
                 if (distX > 0) {
@@ -137,9 +132,7 @@ const swipeDetect = (element) => {
                 }
             }
         }
-        e.preventDefault();
     });
-
 };
 
 let element = document.querySelector('.slider_wrapper');
