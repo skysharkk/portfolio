@@ -39,6 +39,12 @@ html {
   display: none;
 }
 
-.mobile_width {
+.mobile_width_theyalow {
   width: 640px;
 }
+
+.mobile_width_design_project {
+  width: 375px;
+}
+
+
